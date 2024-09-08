@@ -1,15 +1,15 @@
 import { Box } from '@mui/material';
 
-export default function Home() {
+export const GameTurnArea = () => {
 	return (
 		<Box
 			display="flex"
 			justifyContent="center"
 			alignItems="center"
-			width="100%"
 			height="100%"
-		>
-			aaaaaaaaaaa
-		</Box>
+			sx={{
+				aspectRatio: '1/1',
+			}}
+		></Box>
 	);
-}
+};

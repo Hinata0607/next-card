@@ -19,7 +19,7 @@ export const SwitchingLayoutView = ({ children }: SwitchingLayoutViewProps) => {
 				) : displayMode === 'lobby' ? (
 					<LobbyLayout>lobby{children}</LobbyLayout>
 				) : displayMode === 'game' ? (
-					<GameLayout>game{children}</GameLayout>
+					<GameLayout>{children}</GameLayout>
 				) : (
 					<></>
 				)

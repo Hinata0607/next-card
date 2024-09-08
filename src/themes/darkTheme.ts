@@ -10,6 +10,11 @@ export const darkTheme = createTheme({
 					bg: '#000000',
 				},
 			},
+			gameLayout: {
+				mainDeck: {
+					bg: '#000000',
+				},
+			},
 		},
 		background: {
 			default: '#241f46',
