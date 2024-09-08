@@ -16,14 +16,22 @@ export const useLayout = (): UseLayoutProps => {
 		return () => clearTimeout(timer);
 	};
 
-	const { isAccessed, setIsAccessed, isLogoFadeOut, setIsLogoFadeOut } =
-		context;
+	const {
+		isAccessed,
+		setIsAccessed,
+		isLogoFadeOut,
+		setIsLogoFadeOut,
+		displayMode,
+		setDisplayMode,
+	} = context;
 
 	return {
 		isAccessed,
 		setIsAccessed,
 		isLogoFadeOut,
 		setIsLogoFadeOut,
+		displayMode,
+		setDisplayMode,
 
 		handleLogoExited,
 	};

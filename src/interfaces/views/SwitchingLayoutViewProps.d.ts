@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
 
-export interface TopMainProps {
+export interface SwitchingLayoutViewProps {
 	children: ReactNode;
 }
