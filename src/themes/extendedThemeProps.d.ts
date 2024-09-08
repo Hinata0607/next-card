@@ -8,12 +8,22 @@ declare module '@mui/material/styles' {
 					bg: string;
 				};
 			};
+			gameLayout: {
+				mainDeck: {
+					bg: string;
+				};
+			};
 		};
 	}
 	interface PaletteOptions {
 		layout: {
 			commonLayout: {
 				firstAccessBackDrop: {
+					bg: string;
+				};
+			};
+			gameLayout: {
+				mainDeck: {
 					bg: string;
 				};
 			};

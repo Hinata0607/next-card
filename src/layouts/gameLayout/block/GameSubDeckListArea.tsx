@@ -1,15 +1,13 @@
 import { Box } from '@mui/material';
 
-export default function Home() {
+export const GameSubDeckListArea = () => {
 	return (
 		<Box
 			display="flex"
 			justifyContent="center"
 			alignItems="center"
-			width="100%"
+			flexGrow={1}
 			height="100%"
-		>
-			aaaaaaaaaaa
-		</Box>
+		></Box>
 	);
-}
+};

@@ -1,5 +1,5 @@
 'use client';
-import { UseLayoutProps } from '@/interfaces';
+import { handleMainDeckScrollProps, UseLayoutProps } from '@/interfaces';
 import { Context } from '@/provider';
 import { useContext } from 'react';
 
@@ -9,6 +9,16 @@ export const useLayout = (): UseLayoutProps => {
 		throw new Error('Context is not provided');
 	}
 
+	const {
+		mainDeckScrollRef,
+		isAccessed,
+		setIsAccessed,
+		isLogoFadeOut,
+		setIsLogoFadeOut,
+		displayMode,
+		setDisplayMode,
+	} = context;
+
 	const handleLogoExited = (): (() => void) => {
 		const timer = setTimeout(() => {
 			setIsAccessed(true);
@@ -16,15 +26,27 @@ export const useLayout = (): UseLayoutProps => {
 		return () => clearTimeout(timer);
 	};
 
-	const { isAccessed, setIsAccessed, isLogoFadeOut, setIsLogoFadeOut } =
-		context;
+	const handleMainDeckScroll = ({
+		scrollNum,
+	}: handleMainDeckScrollProps): void => {
+		if (mainDeckScrollRef && mainDeckScrollRef.current) {
+			mainDeckScrollRef.current.scrollBy({
+				left: scrollNum,
+				behavior: 'smooth',
+			});
+		}
+	};
 
 	return {
+		mainDeckScrollRef,
 		isAccessed,
 		setIsAccessed,
 		isLogoFadeOut,
 		setIsLogoFadeOut,
+		displayMode,
+		setDisplayMode,
 
 		handleLogoExited,
+		handleMainDeckScroll,
 	};
 };
