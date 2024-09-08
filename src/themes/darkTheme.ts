@@ -1,9 +1,13 @@
 'use client';
 import { createTheme } from '@mui/material';
+import { blue } from '@mui/material/colors';
 
 export const darkTheme = createTheme({
 	palette: {
 		mode: 'dark',
+		primary: {
+			main: blue[500],
+		},
 		layout: {
 			commonLayout: {
 				firstAccessBackDrop: {

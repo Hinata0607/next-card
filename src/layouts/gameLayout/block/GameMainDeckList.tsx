@@ -15,7 +15,7 @@ export const GameMainDeckList = () => {
 			flexGrow={1}
 			gap="10px"
 			height="100%"
-			width="200px"
+			width="1px"
 			sx={{
 				overflowX: 'auto',
 				overflowY: 'hidden',
