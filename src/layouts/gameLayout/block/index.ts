@@ -6,3 +6,7 @@ export * from './GameSubDeckInfoArea';
 export * from './GameSubDeckAttackArea';
 export * from './GameSubDeckAttackAreaXs';
 export * from './GameMainDeckListArea';
+export * from './GameSubDeckProjectArea';
+export * from './GameSubDeckMagicArea';
+export * from './GameSubDeckDefenseArea';
+export * from './GameSubDeckCardTrack';

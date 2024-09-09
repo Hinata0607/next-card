@@ -9,12 +9,9 @@ export const GameSubDeckInfoArea = () => {
 			justifyContent="end"
 			alignItems="start"
 			gap="15px"
+			width="20%"
 			height="100%"
-			maxWidth="50%"
 			padding="10px"
-			sx={{
-				aspectRatio: '2.5/1',
-			}}
 		>
 			<GameSubDeckCardnfo />
 			<GameSubDeckTurn />

@@ -40,7 +40,7 @@ export const GameLayout = ({ children }: GameLayoutProps) => {
 				<Box
 					position={isSm ? 'fixed' : 'static'}
 					width={isSm ? '100%' : '300px'}
-					height="100vh"
+					// height="100vh"
 				>
 					<GameRightBar />
 				</Box>
