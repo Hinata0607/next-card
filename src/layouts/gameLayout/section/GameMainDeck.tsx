@@ -22,9 +22,19 @@ export const GameMainDeck = () => {
 				height="60px"
 				bgcolor={palette.layout.gameLayout.mainDeck.bg}
 			>
-				<GameTurnArea />
-				<GameMainDeckListArea />
-				<GameAddCardArea />
+				<Box
+					display="flex"
+					justifyContent="center"
+					alignItems="center"
+					height="100%"
+					width="100%"
+					maxWidth="1500px"
+					margin="0 auto"
+				>
+					<GameTurnArea />
+					<GameMainDeckListArea />
+					<GameAddCardArea />
+				</Box>
 			</Box>
 
 			<Box width="100%" height="60px" />

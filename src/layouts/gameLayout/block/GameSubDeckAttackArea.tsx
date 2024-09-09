@@ -6,13 +6,11 @@ export const GameSubDeckAttackArea = () => {
 		<Box
 			display="flex"
 			justifyContent="center"
-			alignItems="center"
+			alignItems="end"
+			width="20%"
 			height="100%"
 			maxWidth="50%"
 			padding="10px"
-			sx={{
-				aspectRatio: '2.5/1',
-			}}
 		>
 			<GameSubDeckAttackButton />
 		</Box>

@@ -10,12 +10,21 @@ export const GameSubDeck = () => {
 			justifyContent="center"
 			alignItems="center"
 			width="100%"
-			height="60px"
 		>
 			<>
-				<GameSubDeckInfoArea />
-				<GameSubDeckListArea />
-				<GameSubDeckAttackArea />
+				<Box
+					display="flex"
+					justifyContent="center"
+					alignItems="center"
+					width="100%"
+					maxWidth="1500px"
+					margin="0 auto"
+					height="100%"
+				>
+					<GameSubDeckInfoArea />
+					<GameSubDeckListArea />
+					<GameSubDeckAttackArea />
+				</Box>
 			</>
 		</Box>
 	);
