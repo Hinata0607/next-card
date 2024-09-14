@@ -7,6 +7,8 @@ export interface UseLayoutProps {
 	setIsLogoFadeOut: React.Dispatch<React.SetStateAction<boolean>>;
 	displayMode: displayModeProps;
 	setDisplayMode: React.Dispatch<React.SetStateAction<displayModeProps>>;
+	isExpandMainDeck: boolean;
+	setIsExpandMainDeck: React.Dispatch<React.SetStateAction<boolean>>;
 
 	handleLogoExited: () => () => void;
 	handleMainDeckScroll: ({ scrollNum }: handleMainDeckScrollProps) => void;

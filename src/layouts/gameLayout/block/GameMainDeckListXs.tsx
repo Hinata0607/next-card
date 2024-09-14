@@ -22,7 +22,7 @@ export const GameMainDeckListXs = () => {
 			height="100%"
 			padding="10px"
 			sx={{
-				overflowX: 'auto',
+				overflowX: 'overlay',
 				overflowY: 'hidden',
 				'&::-webkit-scrollbar': {
 					display: 'none',
@@ -31,6 +31,16 @@ export const GameMainDeckListXs = () => {
 		>
 			<GameMainDeckAddButtonXs />
 			<GameMainDeckMyIconXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
+			<GameMainDeckAvatarXs />
 			<GameMainDeckAvatarXs />
 			<GameMainDeckAvatarXs />
 			<GameMainDeckAvatarXs />

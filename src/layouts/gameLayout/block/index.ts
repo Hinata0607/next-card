@@ -16,3 +16,6 @@ export * from './GameRightBarConsole';
 export * from './GameEnemyDeckIconArea';
 export * from './GameEnemyDeckListArea';
 export * from './GameEnemyDeckList';
+export * from './GameSubDeckXsTurnArea';
+export * from './GameSubDeckXsStatusArea';
+export * from './GameEnemyStatusAreaXs';

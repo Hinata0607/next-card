@@ -42,6 +42,16 @@ export const GameMainDeckList = () => {
 			<GameMainDeckAvatar />
 			<GameMainDeckAvatar />
 			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
+			<GameMainDeckAvatar />
 		</Box>
 	);
 };

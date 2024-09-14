@@ -10,6 +10,7 @@ export const ContextProvider = ({ children }: { children: ReactNode }) => {
 	const [isAccessed, setIsAccessed] = useState<boolean>(false);
 	const [isLogoFadeOut, setIsLogoFadeOut] = useState<boolean>(false);
 	const [displayMode, setDisplayMode] = useState<displayModeProps>('game');
+	const [isExpandMainDeck, setIsExpandMainDeck] = useState<boolean>(false);
 
 	const contextValue = {
 		mainDeckScrollRef,
@@ -20,6 +21,8 @@ export const ContextProvider = ({ children }: { children: ReactNode }) => {
 		setIsLogoFadeOut,
 		displayMode,
 		setDisplayMode,
+		isExpandMainDeck,
+		setIsExpandMainDeck,
 	};
 
 	return <Context.Provider value={contextValue}>{children}</Context.Provider>;
