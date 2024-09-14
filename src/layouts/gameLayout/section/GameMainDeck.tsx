@@ -1,6 +1,10 @@
 'use client';
 import { Box } from '@mui/material';
-import { GameAddCardArea, GameMainDeckListArea, GameTurnArea } from '../block';
+import {
+	GameAddCardArea,
+	GameGitSkillArea,
+	GameMainDeckListArea,
+} from '../block';
 import { useBreakPoint, usePalette } from '@/hooks';
 
 export const GameMainDeck = () => {
@@ -31,7 +35,7 @@ export const GameMainDeck = () => {
 					maxWidth="1500px"
 					margin="0 auto"
 				>
-					<GameTurnArea />
+					<GameGitSkillArea />
 					<GameMainDeckListArea />
 					<GameAddCardArea />
 				</Box>

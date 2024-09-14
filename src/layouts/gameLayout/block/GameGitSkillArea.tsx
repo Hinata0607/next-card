@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
+import { GameMainDeckMyIcon } from '../atom';
 
-export const GameTurnArea = () => {
+export const GameGitSkillArea = () => {
 	return (
 		<Box
 			display="flex"
@@ -10,6 +11,8 @@ export const GameTurnArea = () => {
 			sx={{
 				aspectRatio: '1/1',
 			}}
-		></Box>
+		>
+			<GameMainDeckMyIcon />
+		</Box>
 	);
 };
