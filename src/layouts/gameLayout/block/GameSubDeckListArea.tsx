@@ -17,7 +17,7 @@ export const GameSubDeckListArea = () => {
 				flexDirection="column"
 				justifyContent="center"
 				alignItems="end"
-				gap="20px"
+				gap="25px"
 				width="100%"
 				height="fit-content"
 				padding="10px"

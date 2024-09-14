@@ -6,12 +6,12 @@ export const GameSubDeckMagicArea = () => {
 	return (
 		<Box
 			display="flex"
-			justifyContent="center"
+			justifyContent="end"
 			alignItems="center"
 			width="80%"
 			height="100%"
 		>
-			<GameSubDeckCardTrack bg="#a0a">
+			<GameSubDeckCardTrack bg="#a0a" text="Magic">
 				<GameMainDeckAvatar />
 				<GameMainDeckAvatar />
 				<GameMainDeckAvatar />

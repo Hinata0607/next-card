@@ -10,3 +10,5 @@ export * from './GameSubDeckProjectArea';
 export * from './GameSubDeckMagicArea';
 export * from './GameSubDeckDefenseArea';
 export * from './GameSubDeckCardTrack';
+export * from './GameRightBarStatusArea';
+export * from './GameRightBarFieldInfoArea';

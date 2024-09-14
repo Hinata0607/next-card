@@ -12,7 +12,7 @@ export const GameSubDeckProjectArea = () => {
 			height="100%"
 			maxWidth="100%"
 		>
-			<GameSubDeckCardTrack bg="#aa0">
+			<GameSubDeckCardTrack bg="#aa0" text="Project">
 				<GameMainDeckAvatar />
 			</GameSubDeckCardTrack>
 		</Box>
