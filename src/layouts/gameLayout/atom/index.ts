@@ -8,3 +8,4 @@ export * from './GameSubDeckAttackButton';
 export * from './GameSubDeckTurn';
 export * from './GameSubDeckCardInfo';
 export * from './GameRightBarStatusRow';
+export * from './GameMainDeckMyIcon';

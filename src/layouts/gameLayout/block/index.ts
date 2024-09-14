@@ -1,5 +1,5 @@
 export * from './GameMainDeckListArea';
-export * from './GameTurnArea';
+export * from './GameGitSkillArea';
 export * from './GameAddCardArea';
 export * from './GameMainDeckList';
 export * from './GameSubDeckInfoArea';
