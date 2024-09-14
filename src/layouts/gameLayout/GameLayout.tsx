@@ -2,6 +2,7 @@
 import { GameLayoutProps } from '@/interfaces';
 import { Box } from '@mui/material';
 import {
+	GameEnemyDeck,
 	GameMainDeck,
 	GameMainDeckXs,
 	GameRightBar,
@@ -34,6 +35,7 @@ export const GameLayout = ({ children }: GameLayoutProps) => {
 					<Box width="100%" flexGrow={1}>
 						{children}
 					</Box>
+					<GameEnemyDeck />
 					{!isXs ? <GameSubDeck /> : <></>}
 					{!isXs ? <GameMainDeck /> : <GameMainDeckXs />}
 				</Box>
