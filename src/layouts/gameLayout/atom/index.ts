@@ -11,3 +11,6 @@ export * from './GameRightBarStatusRow';
 export * from './GameMainDeckMyIcon';
 export * from './GameMainDeckMyIconXs';
 export * from './GameEnemyDeckIcon';
+export * from './GameEnemyMainDeckListArrowLeft';
+export * from './GameEnemyMainDeckListArrowRight';
+export * from './GameEnemyDeckAvatar';
