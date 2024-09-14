@@ -23,8 +23,18 @@ export const GameEnemyDeck = () => {
 				height="60px"
 				bgcolor={palette.layout.gameLayout.enemyDeck.bg}
 			>
-				<GameEnemyDeckIconArea />
-				<GameEnemyDeckListArea />
+				<Box
+					display="flex"
+					justifyContent="center"
+					alignItems="center"
+					height="100%"
+					width="100%"
+					maxWidth="1500px"
+					margin="0 auto"
+				>
+					<GameEnemyDeckIconArea />
+					<GameEnemyDeckListArea />
+				</Box>
 			</Box>
 
 			<Box width="100%" height="60px" />
