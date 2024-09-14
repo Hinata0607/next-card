@@ -18,6 +18,9 @@ export const darkTheme = createTheme({
 				mainDeck: {
 					bg: '#000000',
 				},
+				rightBar: {
+					bg: '#000000',
+				},
 			},
 		},
 		background: {

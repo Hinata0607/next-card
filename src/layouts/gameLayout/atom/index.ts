@@ -7,3 +7,4 @@ export * from './GameMainDeckAddButtonXs';
 export * from './GameSubDeckAttackButton';
 export * from './GameSubDeckTurn';
 export * from './GameSubDeckCardInfo';
+export * from './GameRightBarStatusRow';

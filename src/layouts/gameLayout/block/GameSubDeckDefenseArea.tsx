@@ -11,7 +11,7 @@ export const GameSubDeckDefenseArea = () => {
 			width="100%"
 			height="100%"
 		>
-			<GameSubDeckCardTrack bg="#00a">
+			<GameSubDeckCardTrack bg="#00a" text="Defense">
 				<GameMainDeckAvatar />
 				<GameMainDeckAvatar />
 				<GameMainDeckAvatar />
