@@ -14,6 +14,7 @@ export const GameMainDeck = () => {
 	return (
 		<>
 			<Box
+				zIndex={100}
 				position="fixed"
 				bottom={0}
 				left={0}

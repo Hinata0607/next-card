@@ -8,19 +8,26 @@ export const GameEnemyDeck = () => {
 	const palette = usePalette();
 
 	return (
-		<Box
-			position="fixed"
-			top={0}
-			left={0}
-			display="flex"
-			justifyContent="center"
-			alignItems="center"
-			width={['xs', 'sm'].includes(breakpoint) ? '100%' : 'calc(100% - 300px)'}
-			height="60px"
-			bgcolor={palette.layout.gameLayout.enemyDeck.bg}
-		>
-			<GameEnemyDeckIconArea />
-			<GameEnemyDeckListArea />
-		</Box>
+		<>
+			<Box
+				zIndex={100}
+				position="fixed"
+				top={0}
+				left={0}
+				display="flex"
+				justifyContent="center"
+				alignItems="center"
+				width={
+					['xs', 'sm'].includes(breakpoint) ? '100%' : 'calc(100% - 300px)'
+				}
+				height="60px"
+				bgcolor={palette.layout.gameLayout.enemyDeck.bg}
+			>
+				<GameEnemyDeckIconArea />
+				<GameEnemyDeckListArea />
+			</Box>
+
+			<Box width="100%" height="60px" />
+		</>
 	);
 };

@@ -2,14 +2,21 @@
 import { Box } from '@mui/material';
 import { GameSubDeckAttackArea, GameSubDeckInfoArea } from '../block';
 import { GameSubDeckListArea } from '../block/GameSubDeckListArea';
+import { useBreakPoint } from '@/hooks';
 
 export const GameSubDeck = () => {
+	const breakpoint = useBreakPoint();
+
 	return (
 		<Box
+			zIndex={50}
+			position="fixed"
+			bottom={'60px'}
 			display="flex"
 			justifyContent="center"
 			alignItems="center"
-			width="100%"
+			width={['xs', 'sm'].includes(breakpoint) ? '100%' : 'calc(100% - 300px)'}
+			height="100px"
 		>
 			<>
 				<Box
