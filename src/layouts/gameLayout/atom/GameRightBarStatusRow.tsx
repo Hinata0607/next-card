@@ -72,14 +72,14 @@ export const GameRightBarStatusRow = ({
 				<Typography
 					variant="body2"
 					sx={{
-						fontSize: '0.8rem',
+						fontSize: '0.7rem',
 					}}
 				>
 					{text}
 				</Typography>
 				<Typography
 					sx={{
-						fontSize: '0.8rem',
+						fontSize: '0.7rem',
 					}}
 				>
 					XX / XX

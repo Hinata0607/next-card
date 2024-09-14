@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+import { GameRightBarConsole } from './GameRightBarConsole';
 
 export const GameRightBarFieldInfoArea = () => {
 	return (
@@ -9,6 +10,10 @@ export const GameRightBarFieldInfoArea = () => {
 			flexGrow={1}
 			gap="10px"
 			width="100%"
-		></Box>
+			height="100px"
+			padding="20px 0 10px 10px"
+		>
+			<GameRightBarConsole />
+		</Box>
 	);
 };
