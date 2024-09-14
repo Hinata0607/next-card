@@ -1,4 +1,9 @@
 import { Box } from '@mui/material';
+import {
+	GameEnemyMainDeckListArrowLeft,
+	GameEnemyMainDeckListArrowRight,
+} from '../atom';
+import { GameEnemyDeckList } from './GameEnemyDeckList';
 
 export const GameEnemyDeckListArea = () => {
 	return (
@@ -8,6 +13,10 @@ export const GameEnemyDeckListArea = () => {
 			alignItems="center"
 			flexGrow={1}
 			height="100%"
-		></Box>
+		>
+			<GameEnemyMainDeckListArrowLeft />
+			<GameEnemyDeckList />
+			<GameEnemyMainDeckListArrowRight />
+		</Box>
 	);
 };

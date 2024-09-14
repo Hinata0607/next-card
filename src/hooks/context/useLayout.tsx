@@ -1,5 +1,9 @@
 'use client';
-import { handleMainDeckScrollProps, UseLayoutProps } from '@/interfaces';
+import {
+	handleEnemyDeckScrollProps,
+	handleMainDeckScrollProps,
+	UseLayoutProps,
+} from '@/interfaces';
 import { Context } from '@/provider';
 import { useContext } from 'react';
 
@@ -11,6 +15,7 @@ export const useLayout = (): UseLayoutProps => {
 
 	const {
 		mainDeckScrollRef,
+		enemyDeckScrollRef,
 		isAccessed,
 		setIsAccessed,
 		isLogoFadeOut,
@@ -37,8 +42,20 @@ export const useLayout = (): UseLayoutProps => {
 		}
 	};
 
+	const handleEnemyDeckScroll = ({
+		scrollNum,
+	}: handleEnemyDeckScrollProps): void => {
+		if (enemyDeckScrollRef && enemyDeckScrollRef.current) {
+			enemyDeckScrollRef.current.scrollBy({
+				left: scrollNum,
+				behavior: 'smooth',
+			});
+		}
+	};
+
 	return {
 		mainDeckScrollRef,
+		enemyDeckScrollRef,
 		isAccessed,
 		setIsAccessed,
 		isLogoFadeOut,
@@ -48,5 +65,6 @@ export const useLayout = (): UseLayoutProps => {
 
 		handleLogoExited,
 		handleMainDeckScroll,
+		handleEnemyDeckScroll,
 	};
 };
