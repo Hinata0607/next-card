@@ -3,10 +3,12 @@ import { GameLayoutProps } from '@/interfaces';
 import { Box } from '@mui/material';
 import {
 	GameEnemyDeck,
+	GameEnemyStatusBarXs,
 	GameMainDeck,
 	GameMainDeckXs,
 	GameRightBar,
 	GameSubDeck,
+	GameSubDeckXs,
 } from './section';
 import { useBreakPoint } from '@/hooks';
 
@@ -33,10 +35,11 @@ export const GameLayout = ({ children }: GameLayoutProps) => {
 					height="100%"
 				>
 					<GameEnemyDeck />
+					{isXs && <GameEnemyStatusBarXs />}
 					<Box width="100%" flexGrow={1}>
 						{children}
 					</Box>
-					{!isXs ? <GameSubDeck /> : <></>}
+					{!isXs ? <GameSubDeck /> : <GameSubDeckXs />}
 					{!isXs ? <GameMainDeck /> : <GameMainDeckXs />}
 				</Box>
 				<Box

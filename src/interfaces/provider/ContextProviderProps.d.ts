@@ -7,6 +7,8 @@ export interface ContextProviderProps {
 	setIsLogoFadeOut: React.Dispatch<React.SetStateAction<boolean>>;
 	displayMode: displayModeProps;
 	setDisplayMode: React.Dispatch<React.SetStateAction<displayModeProps>>;
+	isExpandMainDeck: boolean;
+	setIsExpandMainDeck: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export type displayModeProps = 'top' | 'lobby' | 'game';

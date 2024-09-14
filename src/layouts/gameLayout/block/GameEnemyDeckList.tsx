@@ -41,19 +41,6 @@ export const GameEnemyDeckList = () => {
 			<GameEnemyDeckAvatar />
 			<GameEnemyDeckAvatar />
 			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
-			<GameEnemyDeckAvatar />
 		</Box>
 	);
 };

@@ -22,6 +22,8 @@ export const useLayout = (): UseLayoutProps => {
 		setIsLogoFadeOut,
 		displayMode,
 		setDisplayMode,
+		isExpandMainDeck,
+		setIsExpandMainDeck,
 	} = context;
 
 	const handleLogoExited = (): (() => void) => {
@@ -62,6 +64,8 @@ export const useLayout = (): UseLayoutProps => {
 		setIsLogoFadeOut,
 		displayMode,
 		setDisplayMode,
+		isExpandMainDeck,
+		setIsExpandMainDeck,
 
 		handleLogoExited,
 		handleMainDeckScroll,
