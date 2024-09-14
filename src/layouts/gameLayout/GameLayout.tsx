@@ -32,10 +32,10 @@ export const GameLayout = ({ children }: GameLayoutProps) => {
 					width={isSm ? '100%' : 'calc(100% - 300px)'}
 					height="100%"
 				>
+					<GameEnemyDeck />
 					<Box width="100%" flexGrow={1}>
 						{children}
 					</Box>
-					<GameEnemyDeck />
 					{!isXs ? <GameSubDeck /> : <></>}
 					{!isXs ? <GameMainDeck /> : <GameMainDeckXs />}
 				</Box>

@@ -8,6 +8,7 @@ export const GameRightBar = () => {
 
 	return (
 		<Box
+			zIndex={100}
 			display="flex"
 			flexDirection="column"
 			justifyContent="center"

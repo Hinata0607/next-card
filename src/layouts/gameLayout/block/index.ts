@@ -15,3 +15,4 @@ export * from './GameRightBarFieldInfoArea';
 export * from './GameRightBarConsole';
 export * from './GameEnemyDeckIconArea';
 export * from './GameEnemyDeckListArea';
+export * from './GameEnemyDeckList';
