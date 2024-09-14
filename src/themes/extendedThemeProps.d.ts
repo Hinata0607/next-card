@@ -12,6 +12,9 @@ declare module '@mui/material/styles' {
 				mainDeck: {
 					bg: string;
 				};
+				enemyDeck: {
+					bg: string;
+				};
 				rightBar: {
 					bg: string;
 				};
@@ -27,6 +30,9 @@ declare module '@mui/material/styles' {
 			};
 			gameLayout: {
 				mainDeck: {
+					bg: string;
+				};
+				enemyDeck: {
 					bg: string;
 				};
 				rightBar: {

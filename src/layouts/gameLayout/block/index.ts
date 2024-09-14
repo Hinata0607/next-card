@@ -13,3 +13,5 @@ export * from './GameSubDeckCardTrack';
 export * from './GameRightBarStatusArea';
 export * from './GameRightBarFieldInfoArea';
 export * from './GameRightBarConsole';
+export * from './GameEnemyDeckIconArea';
+export * from './GameEnemyDeckListArea';

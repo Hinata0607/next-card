@@ -9,3 +9,5 @@ export * from './GameSubDeckTurn';
 export * from './GameSubDeckCardInfo';
 export * from './GameRightBarStatusRow';
 export * from './GameMainDeckMyIcon';
+export * from './GameMainDeckMyIconXs';
+export * from './GameEnemyDeckIcon';

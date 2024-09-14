@@ -1,6 +1,10 @@
 'use client';
 import { Box } from '@mui/material';
-import { GameMainDeckAddButtonXs, GameMainDeckAvatarXs } from '../atom';
+import {
+	GameMainDeckAddButtonXs,
+	GameMainDeckAvatarXs,
+	GameMainDeckMyIconXs,
+} from '../atom';
 import { useLayout } from '@/hooks';
 
 export const GameMainDeckListXs = () => {
@@ -26,6 +30,7 @@ export const GameMainDeckListXs = () => {
 			}}
 		>
 			<GameMainDeckAddButtonXs />
+			<GameMainDeckMyIconXs />
 			<GameMainDeckAvatarXs />
 			<GameMainDeckAvatarXs />
 			<GameMainDeckAvatarXs />
