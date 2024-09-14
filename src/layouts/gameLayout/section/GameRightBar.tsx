@@ -14,13 +14,23 @@ export const GameRightBar = () => {
 			alignItems="center"
 			width="100%"
 			height="100%"
-			padding="15px 0"
-			overflow="hidden"
 			bgcolor={palette.layout.gameLayout.rightBar.bg}
 		>
-			<GameRightBarStatusArea />
-			<GameRightBarFieldInfoArea />
-			<GameRightBarStatusArea />
+			<Box
+				display="flex"
+				flexDirection="column"
+				justifyContent="center"
+				alignItems="center"
+				width="100%"
+				height="100%"
+				padding="15px 0"
+				overflow="hidden"
+				maxHeight="1500px"
+			>
+				<GameRightBarStatusArea />
+				<GameRightBarFieldInfoArea />
+				<GameRightBarStatusArea />
+			</Box>
 		</Box>
 	);
 };

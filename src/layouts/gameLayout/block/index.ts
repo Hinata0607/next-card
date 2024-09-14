@@ -12,3 +12,4 @@ export * from './GameSubDeckDefenseArea';
 export * from './GameSubDeckCardTrack';
 export * from './GameRightBarStatusArea';
 export * from './GameRightBarFieldInfoArea';
+export * from './GameRightBarConsole';
