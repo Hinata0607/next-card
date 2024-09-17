@@ -38,8 +38,34 @@ export const darkTheme = createTheme({
 				},
 			},
 		},
+		content: {
+			topContent: {
+				list: {
+					item: {
+						border: '#21263a',
+					},
+				},
+			},
+		},
 		background: {
 			default: '#0a0b11',
+		},
+	},
+	components: {
+		MuiCssBaseline: {
+			styleOverrides: `
+            ::-webkit-scrollbar{
+                width: 10px;
+				max-width: 2vw;
+            },
+            ::-webkit-scrollbar-thumb {
+                background: rgba(255, 255, 255, 0.3);
+				border-radius: 5px;
+            },
+            ::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+            `,
 		},
 	},
 });

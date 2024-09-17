@@ -6,9 +6,6 @@ export const TopHeader = () => {
 	return (
 		<>
 			<Box
-				position="fixed"
-				top={0}
-				left={0}
 				display="flex"
 				justifyContent="space-between"
 				alignItems="center"
@@ -19,8 +16,6 @@ export const TopHeader = () => {
 				<SiteLogo width="150px" height="auto" maxWidth="40vw" />
 				<TopHeaderRightCommands />
 			</Box>
-
-			<Box width="100%" height="100px" />
 		</>
 	);
 };

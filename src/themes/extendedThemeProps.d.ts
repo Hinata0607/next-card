@@ -32,6 +32,15 @@ declare module '@mui/material/styles' {
 				};
 			};
 		};
+		content: {
+			topContent: {
+				list: {
+					item: {
+						border: string;
+					};
+				};
+			};
+		};
 	}
 	interface PaletteOptions {
 		layout: {
@@ -61,6 +70,15 @@ declare module '@mui/material/styles' {
 				};
 				rightBar: {
 					bg: string;
+				};
+			};
+		};
+		content: {
+			topContent: {
+				list: {
+					item: {
+						border: string;
+					};
 				};
 			};
 		};

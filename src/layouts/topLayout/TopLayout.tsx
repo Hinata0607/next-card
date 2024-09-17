@@ -15,7 +15,9 @@ export const TopLayout = ({ children }: TopLayoutProps) => {
 				height="100vh"
 			>
 				<TopHeader />
-				{children}
+				<Box width="100%" height="calc(100% - 100px)">
+					{children}
+				</Box>
 			</Box>
 		</>
 	);
