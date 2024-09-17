@@ -8,15 +8,37 @@ declare module '@mui/material/styles' {
 					bg: string;
 				};
 			};
+			topLayout: {
+				header: {
+					border: string;
+				};
+			};
 			gameLayout: {
 				mainDeck: {
 					bg: string;
+				};
+				subDeck: {
+					track: {
+						defense: string;
+						project: string;
+						magic: string;
+					};
 				};
 				enemyDeck: {
 					bg: string;
 				};
 				rightBar: {
 					bg: string;
+				};
+			};
+		};
+		content: {
+			topContent: {
+				list: {
+					item: {
+						bg: string;
+						border: string;
+					};
 				};
 			};
 		};
@@ -28,15 +50,37 @@ declare module '@mui/material/styles' {
 					bg: string;
 				};
 			};
+			topLayout: {
+				header: {
+					border: string;
+				};
+			};
 			gameLayout: {
 				mainDeck: {
 					bg: string;
+				};
+				subDeck: {
+					track: {
+						defense: string;
+						project: string;
+						magic: string;
+					};
 				};
 				enemyDeck: {
 					bg: string;
 				};
 				rightBar: {
 					bg: string;
+				};
+			};
+		};
+		content: {
+			topContent: {
+				list: {
+					item: {
+						bg: string;
+						border: string;
+					};
 				};
 			};
 		};

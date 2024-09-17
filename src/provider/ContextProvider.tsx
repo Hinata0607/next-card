@@ -9,7 +9,7 @@ export const ContextProvider = ({ children }: { children: ReactNode }) => {
 	const enemyDeckScrollRef = useRef<HTMLDivElement>(null);
 	const [isAccessed, setIsAccessed] = useState<boolean>(false);
 	const [isLogoFadeOut, setIsLogoFadeOut] = useState<boolean>(false);
-	const [displayMode, setDisplayMode] = useState<displayModeProps>('game');
+	const [displayMode, setDisplayMode] = useState<displayModeProps>('top');
 	const [isExpandMainDeck, setIsExpandMainDeck] = useState<boolean>(false);
 
 	const contextValue = {

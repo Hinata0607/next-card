@@ -1,8 +1,12 @@
+'use client';
 import { Box } from '@mui/material';
 import { GameSubDeckCardTrack } from './GameSubDeckCardTrack';
 import { GameMainDeckAvatar } from '../atom';
+import { usePalette } from '@/hooks';
 
 export const GameSubDeckProjectArea = () => {
+	const palette = usePalette();
+
 	return (
 		<Box
 			display="flex"
@@ -12,7 +16,10 @@ export const GameSubDeckProjectArea = () => {
 			height="100%"
 			maxWidth="100%"
 		>
-			<GameSubDeckCardTrack bg="#aa0" text="Project">
+			<GameSubDeckCardTrack
+				bg={palette.layout.gameLayout.subDeck.track.project}
+				text="Project"
+			>
 				<GameMainDeckAvatar />
 			</GameSubDeckCardTrack>
 		</Box>
