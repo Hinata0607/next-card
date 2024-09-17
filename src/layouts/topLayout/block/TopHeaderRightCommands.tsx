@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import { TopHeaderIconButton } from '../atom';
-import { Login, Settings } from '@mui/icons-material';
+import { Apps, Login } from '@mui/icons-material';
 
 export const TopHeaderRightCommands = () => {
 	return (
@@ -13,10 +13,7 @@ export const TopHeaderRightCommands = () => {
 			maxWidth="60vw"
 			padding="0 10px"
 		>
-			<TopHeaderIconButton
-				icon={<Settings />}
-				onClick={() => console.log('')}
-			/>
+			<TopHeaderIconButton icon={<Apps />} onClick={() => console.log('')} />
 			<TopHeaderIconButton icon={<Login />} onClick={() => console.log('')} />
 		</Box>
 	);

@@ -1,5 +1,6 @@
 'use client';
 import { usePalette } from '@/hooks';
+import { Key } from '@mui/icons-material';
 import {
 	Avatar,
 	Box,
@@ -10,7 +11,7 @@ import {
 	TextField,
 } from '@mui/material';
 
-export const TopSelectListItem = () => {
+export const TopSelectListItemMakeRoom = () => {
 	const palette = usePalette();
 
 	return (
@@ -21,7 +22,7 @@ export const TopSelectListItem = () => {
 				width: '100%',
 				height: '150px',
 				borderRadius: '10px',
-				border: `solid 2px ${palette.content.topContent.list.item.border}`,
+				border: `solid 1px ${palette.warning.dark}`,
 				backgroundColor: palette.content.topContent.list.item.bg,
 				'&:hover': {
 					backgroundColor: palette.content.topContent.list.item.bg,
@@ -35,14 +36,20 @@ export const TopSelectListItem = () => {
 			}}
 		>
 			<ListItemAvatar>
-				<Avatar />
+				<Avatar
+					sx={{
+						color: palette.text.primary,
+						backgroundColor: palette.warning.dark,
+					}}
+				>
+					<Key />
+				</Avatar>
 			</ListItemAvatar>
 			<ListItemText
-				primary={'aaaaaaaaaaaaaaaaaaaaaaaaaa'}
-				secondary={'ssssssssssssssssssssssssssss'}
+				primary={'キーを入力してルームを作成もしくは参加'}
+				secondary={'キーを知っている人のみ参加可能のプライベートマッチです。'}
 				sx={{
 					marginRight: '10px',
-					width: '30%',
 				}}
 				primaryTypographyProps={{
 					sx: {
@@ -72,18 +79,19 @@ export const TopSelectListItem = () => {
 				alignItems="center"
 				flexDirection="column"
 				gap="15px"
-				flexGrow={1}
-				width="100px"
+				width="200px"
 			>
 				<TextField
 					variant="outlined"
-					label="Input Text"
+					label="キーを入力"
 					size="small"
+					color="warning"
 					fullWidth
 				/>
 				<Button
 					fullWidth
 					variant="outlined"
+					color="warning"
 					sx={{
 						textOverflow: 'ellipsis',
 						overflow: 'hidden',
@@ -91,7 +99,7 @@ export const TopSelectListItem = () => {
 						display: 'block',
 					}}
 				>
-					参加する
+					作成
 				</Button>
 			</Box>
 		</ListItemButton>

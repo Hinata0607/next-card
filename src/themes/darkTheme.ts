@@ -1,12 +1,12 @@
 'use client';
 import { createTheme } from '@mui/material';
-import { blue } from '@mui/material/colors';
+import { purple } from '@mui/material/colors';
 
 export const darkTheme = createTheme({
 	palette: {
 		mode: 'dark',
 		primary: {
-			main: blue[500],
+			main: purple[500],
 		},
 		layout: {
 			commonLayout: {
@@ -42,6 +42,7 @@ export const darkTheme = createTheme({
 			topContent: {
 				list: {
 					item: {
+						bg: '#000000',
 						border: '#21263a',
 					},
 				},

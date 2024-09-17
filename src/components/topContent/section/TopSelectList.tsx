@@ -1,5 +1,9 @@
 import { List } from '@mui/material';
-import { TopSelectListItem } from '../block';
+import {
+	TopSelectListItem,
+	TopSelectListItemMakeRoom,
+	TopSelectListItemRandomMatch,
+} from '../block';
 
 export const TopSelectList = () => {
 	return (
@@ -12,10 +16,12 @@ export const TopSelectList = () => {
 				gap: '20px',
 				width: '1000px',
 				maxWidth: '90vw',
-				padding: '0 0 20px 0',
+				padding: '20px 0',
 				margin: '0 auto',
 			}}
 		>
+			<TopSelectListItemMakeRoom />
+			<TopSelectListItemRandomMatch />
 			<TopSelectListItem />
 			<TopSelectListItem />
 			<TopSelectListItem />

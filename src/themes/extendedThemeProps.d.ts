@@ -36,6 +36,7 @@ declare module '@mui/material/styles' {
 			topContent: {
 				list: {
 					item: {
+						bg: string;
 						border: string;
 					};
 				};
@@ -77,6 +78,7 @@ declare module '@mui/material/styles' {
 			topContent: {
 				list: {
 					item: {
+						bg: string;
 						border: string;
 					};
 				};
