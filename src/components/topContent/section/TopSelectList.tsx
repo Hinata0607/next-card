@@ -3,6 +3,7 @@ import {
 	TopSelectListItem,
 	TopSelectListItemMakeRoom,
 	TopSelectListItemRandomMatch,
+	TopSelectListItemTutorial,
 } from '../block';
 
 export const TopSelectList = () => {
@@ -22,6 +23,7 @@ export const TopSelectList = () => {
 		>
 			<TopSelectListItemMakeRoom />
 			<TopSelectListItemRandomMatch />
+			<TopSelectListItemTutorial />
 			<TopSelectListItem />
 			<TopSelectListItem />
 			<TopSelectListItem />
