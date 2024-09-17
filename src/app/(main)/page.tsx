@@ -8,8 +8,6 @@ export default function Home() {
 			alignItems="center"
 			width="100%"
 			height="100%"
-		>
-			aaaaaaaaaaa
-		</Box>
+		></Box>
 	);
 }

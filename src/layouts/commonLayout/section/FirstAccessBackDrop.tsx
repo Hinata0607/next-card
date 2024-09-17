@@ -50,7 +50,7 @@ export const FirstAccessBackDrop = () => {
 						},
 					}}
 				>
-					<SiteLogo width="250px" height="auto" />
+					<SiteLogo width="250px" height="auto" maxWidth="50vw" />
 				</Box>
 			</Fade>
 		</Box>
